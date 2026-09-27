@@ -282,6 +282,20 @@ components/
 
 ---
 
+## ปุ่ม "เพิ่มในสูตรโปรด" ทำงานจริง (Lab B c)
+
+### กดปุ่มที่หน้า detail → POST /api/my-recipes ตอบ 201
+![](./screenshots/add-favorite-saved.png)
+
+ปุ่มเปลี่ยนเป็น "✅ บันทึกแล้ว" หลัง Route Handler ของกลุ่มตอบ `201 Created`
+
+### รายการโผล่ที่ /my-recipes
+![](./screenshots/my-recipes-after-add.png)
+
+Alfajores (mealId 53138) ที่เพิ่งกดเพิ่ม ขึ้นมาในหน้าสูตรโปรดเรียบร้อย
+
+---
+
 ## หลักฐาน revalidate ที่ /my-recipes (revalidate: 20)
 
 ### ก่อนครบ 20 วินาที
