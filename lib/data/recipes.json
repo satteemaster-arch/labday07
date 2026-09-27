@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "ข้าวผัดกะเพราไก่", "category": "Chicken" },
+  { "id": 2, "name": "แกงเขียวหวานไก่", "category": "Chicken" },
+  { "id": 3, "name": "ข้าวเหนียวมะม่วง", "category": "Dessert" },
+  { "id": 4, "name": "บัวลอยไข่หวาน", "category": "Dessert" },
+  { "id": 5, "name": "ต้มข่าไก่", "category": "Soup" }
+]
